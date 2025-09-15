@@ -7,5 +7,6 @@
 }
 
 html {
+  scroll-padding-top: 48px;
   scroll-behavior: smooth;
 }

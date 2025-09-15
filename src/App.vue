@@ -6,7 +6,11 @@
       <FadeIn>
         <section id="home" class="h-screen flex flex-col justify-center items-center text-center">
           <h1 class="text-5xl font-bold">Hi, I'm <span class="text-blue-500">Thomas</span></h1>
-          <p class="mt-4 text-lg">Aspiring Frontend Developer | JavaScript • Tailwind • Vue</p>
+          <p class="mt-4 text-lg">
+            <span class="block sm:inline">Aspiring Frontend Developer</span>
+            <span class="hidden sm:inline"> | </span>
+            <span class="block sm:inline">JavaScript • Tailwind • Vue</span>
+          </p>
           <div class="mt-6 flex gap-3">
             <a
               href="#projects"
@@ -15,7 +19,7 @@
               View My Work
             </a>
             <a
-              href="/resume.pdf"
+              href="https://drive.google.com/file/d/1RH3XacRQqegiuBCUrAOwjFm6l-eztvzJ/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               class="px-6 py-3 border border-blue-500 text-blue-500 rounded-xl hover:bg-blue-50 dark:hover:bg-gray-800 transition"
@@ -27,36 +31,90 @@
       </FadeIn>
 
       <FadeIn>
-        <section id="about" class="pt-16 max-w-3xl mx-auto text-center">
+        <section id="about" class="pt-16 max-w-5xl mx-auto text-center">
           <h2 class="text-3xl font-bold mb-6">About Me</h2>
-          <p class="text-lg">
-            I’m a software engineering student passionate about building modern, responsive web apps
-            with Vue and Tailwind. This portfolio showcases my journey, skills, and projects.
+          <p class="text-lg px-6 text-justify">
+            A current Software Engineering student at Mae Fah Luang University with strong
+            problem-solving abilities and a solid foundation in web technologies, including HTML,
+            CSS, and JavaScript. Familiar with backend development using Node.js and Express, and
+            eager to deepen expertise in full-stack development. Motivated to apply technical
+            knowledge in real-world software engineering projects, while continuously learning from
+            industry professionals.
           </p>
         </section>
       </FadeIn>
 
       <FadeIn>
-        <section id="experience" class="pt-16">
+        <section id="education" class="pt-16">
           <div class="max-w-5xl mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center mb-8">Experience</h2>
+            <h2 class="text-3xl font-bold text-center mb-8">Education</h2>
             <div class="space-y-6">
-              <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow">
-                <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
-                  <h3 class="font-semibold">Role / Company</h3>
-                  <p class="text-sm text-gray-500">Month YYYY – Month YYYY</p>
+              <!-- Current Degree -->
+              <div
+                class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow border-l-4 border-blue-500"
+              >
+                <div class="flex items-start justify-between mb-4">
+                  <div class="flex-1">
+                    <div class="flex items-center mb-2">
+                      <div class="w-3 h-3 bg-blue-500 rounded-full mr-3"></div>
+                      <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+                        B.Eng. in Software Engineering
+                      </h3>
+                    </div>
+                    <p class="text-blue-600 dark:text-blue-400 font-medium mb-1">
+                      Mae Fah Luang University
+                    </p>
+                    <p class="text-sm text-gray-500">Expected Graduation: 2026</p>
+                  </div>
+                  <span
+                    class="px-3 py-1 text-xs font-medium bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full"
+                  >
+                    Current
+                  </span>
                 </div>
-                <ul class="list-disc list-inside text-sm space-y-1">
-                  <li>Brief responsibility or achievement.</li>
-                  <li>Another impact-focused bullet point.</li>
-                </ul>
+                <div class="border-t border-gray-200 dark:border-gray-700 pt-4">
+                  <p class="text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                    Relevant coursework:
+                  </p>
+                  <div class="text-sm text-gray-600 dark:text-gray-400">
+                    Software Engineering • Web Development • Application Development • Data
+                    Structures & Algorithms • Object-Oriented Programming
+                  </div>
+                </div>
               </div>
-              <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow">
-                <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
-                  <h3 class="font-semibold">Academic Presentation — Conference Name</h3>
-                  <p class="text-sm text-gray-500">Month YYYY</p>
+
+              <!-- Previous Degree -->
+              <div
+                class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow border-l-4 border-gray-300 dark:border-gray-600"
+              >
+                <div class="flex items-start justify-between mb-4">
+                  <div class="flex-1">
+                    <div class="flex items-center mb-2">
+                      <div class="w-3 h-3 bg-gray-400 rounded-full mr-3"></div>
+                      <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+                        B.A. in Business
+                      </h3>
+                    </div>
+                    <p class="text-gray-600 dark:text-gray-400 font-medium mb-1">
+                      Myanmar Institute of Theology
+                    </p>
+                    <p class="text-sm text-gray-500">2018 - 2023</p>
+                  </div>
+                  <span
+                    class="px-3 py-1 text-xs font-medium bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-400 rounded-full"
+                  >
+                    Completed
+                  </span>
                 </div>
-                <p class="text-sm">Presented on [topic]. Linked abstract or slides if available.</p>
+                <div class="border-t border-gray-200 dark:border-gray-700 pt-4">
+                  <p class="text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                    Relevant coursework:
+                  </p>
+                  <div class="text-sm text-gray-600 dark:text-gray-400">
+                    Business Strategy • Entrepreneurship • Project Management • Sales • Human
+                    Resource Management
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -131,7 +189,7 @@
       </FadeIn>
 
       <FadeIn>
-        <section id="projects" class="py-16 bg-gray-100 dark:bg-gray-800">
+        <section id="projects" class="pt-12 pb-16 bg-gray-100 dark:bg-gray-800">
           <div class="max-w-5xl mx-auto px-4">
             <h2 class="text-3xl font-bold text-center mb-8">Projects</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -140,7 +198,7 @@
                   title="My Portfolio"
                   description="This very site! Built with Vue 3 + TailwindCSS."
                   tech="Vue, Tailwind"
-                  link="https://github.com/yourusername/portfolio"
+                  link="https://github.com/SawThomasMMK/my-portfolio.git"
                   image="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1200&auto=format&fit=crop"
                   imageAlt="Screenshot of portfolio website"
                 />
@@ -151,17 +209,154 @@
       </FadeIn>
 
       <FadeIn>
-        <section id="education" class="pt-16">
+        <section id="experience" class="pt-16">
           <div class="max-w-5xl mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center mb-8">Education</h2>
-            <div class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow">
-              <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
-                <h3 class="font-semibold">BSc in [Your Program] — [Your University]</h3>
-                <p class="text-sm text-gray-500">Expected Graduation: YYYY</p>
+            <h2 class="text-3xl font-bold text-center mb-8">Experience</h2>
+            <div class="space-y-6">
+              <!-- Academic Presentation -->
+              <div
+                class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow border-l-4 border-green-500"
+              >
+                <div class="flex items-start justify-between mb-4">
+                  <div class="flex-1">
+                    <div class="flex items-center mb-2">
+                      <div class="w-3 h-3 bg-green-500 rounded-full mr-3"></div>
+                      <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+                        Academic Presentation
+                      </h3>
+                    </div>
+                    <p class="text-green-600 dark:text-green-400 font-medium mb-1">
+                      RAG for lifestyle improvement — ECTI DAMT & NCON 2025
+                    </p>
+                    <p class="text-sm text-gray-500">February 2025</p>
+                  </div>
+                  <span
+                    class="px-3 py-1 text-xs font-medium bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 rounded-full"
+                  >
+                    Conference
+                  </span>
+                </div>
+                <div class="border-t border-gray-200 dark:border-gray-700 pt-4">
+                  <p class="text-sm text-gray-600 dark:text-gray-400 mb-3">
+                    Presented on "AI in Health and Tech" topic at the ECTI DAMT & NCON 2025
+                    conference.
+                  </p>
+                  <a
+                    href="https://www.canva.com/design/DAGXBD0k16o/_45eDbYvt7E3CJdcCgp6Ew/edit?utm_content=DAGXBD0k16o&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="inline-flex items-center text-sm text-green-600 dark:text-green-400 hover:text-green-700 dark:hover:text-green-300 transition-colors"
+                  >
+                    View Presentation →
+                  </a>
+                </div>
               </div>
-              <p class="text-sm mb-2">
-                Relevant coursework: Algorithms, Web Development, Databases, OOP
-              </p>
+
+              <!-- Teaching Experience -->
+              <div
+                class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow border-l-4 border-blue-500"
+              >
+                <div class="flex items-start justify-between mb-4">
+                  <div class="flex-1">
+                    <div class="flex items-center mb-2">
+                      <div class="w-3 h-3 bg-blue-500 rounded-full mr-3"></div>
+                      <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Teacher</h3>
+                    </div>
+                    <p class="text-blue-600 dark:text-blue-400 font-medium mb-1">
+                      Thoo Mweh Khee Migrant Learning Center
+                    </p>
+                    <p class="text-sm text-gray-500">June 2023 – July 2023</p>
+                  </div>
+                  <span
+                    class="px-3 py-1 text-xs font-medium bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full"
+                  >
+                    Teaching
+                  </span>
+                </div>
+                <div class="border-t border-gray-200 dark:border-gray-700 pt-4">
+                  <ul class="space-y-2 text-sm">
+                    <li class="flex items-start">
+                      <span
+                        class="w-1.5 h-1.5 bg-blue-500 rounded-full mr-3 mt-2 flex-shrink-0"
+                      ></span>
+                      <span class="text-gray-600 dark:text-gray-400">
+                        Instructed and supervised students in Mathematics, Economics, and Computer
+                        Basics
+                      </span>
+                    </li>
+                    <li class="flex items-start">
+                      <span
+                        class="w-1.5 h-1.5 bg-blue-500 rounded-full mr-3 mt-2 flex-shrink-0"
+                      ></span>
+                      <span class="text-gray-600 dark:text-gray-400">
+                        Collaborated with colleagues to ensure effective curriculum and student
+                        engagement
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Leadership Experience -->
+              <div
+                class="bg-white dark:bg-gray-800 rounded-xl p-6 shadow border-l-4 border-purple-500"
+              >
+                <div class="flex items-start justify-between mb-4">
+                  <div class="flex-1">
+                    <div class="flex items-center mb-2">
+                      <div class="w-3 h-3 bg-purple-500 rounded-full mr-3"></div>
+                      <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
+                        Youth Program President
+                      </h3>
+                    </div>
+                    <p class="text-purple-600 dark:text-purple-400 font-medium mb-1">
+                      Insein Myothit Karen Baptist Church
+                    </p>
+                    <p class="text-sm text-gray-500">June 2020 – June 2022</p>
+                  </div>
+                  <span
+                    class="px-3 py-1 text-xs font-medium bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 rounded-full"
+                  >
+                    Leadership
+                  </span>
+                </div>
+                <div class="border-t border-gray-200 dark:border-gray-700 pt-4">
+                  <ul class="space-y-2 text-sm">
+                    <li class="flex items-start">
+                      <span
+                        class="w-1.5 h-1.5 bg-purple-500 rounded-full mr-3 mt-2 flex-shrink-0"
+                      ></span>
+                      <span class="text-gray-600 dark:text-gray-400">
+                        Planned and organized worship service programs
+                      </span>
+                    </li>
+                    <li class="flex items-start">
+                      <span
+                        class="w-1.5 h-1.5 bg-purple-500 rounded-full mr-3 mt-2 flex-shrink-0"
+                      ></span>
+                      <span class="text-gray-600 dark:text-gray-400">
+                        Assigned tasks to volunteers and ensured timely completion
+                      </span>
+                    </li>
+                    <li class="flex items-start">
+                      <span
+                        class="w-1.5 h-1.5 bg-purple-500 rounded-full mr-3 mt-2 flex-shrink-0"
+                      ></span>
+                      <span class="text-gray-600 dark:text-gray-400">
+                        Coordinated with guest pastors and speakers for worship services
+                      </span>
+                    </li>
+                    <li class="flex items-start">
+                      <span
+                        class="w-1.5 h-1.5 bg-purple-500 rounded-full mr-3 mt-2 flex-shrink-0"
+                      ></span>
+                      <span class="text-gray-600 dark:text-gray-400">
+                        Collaborated with church leaders to assist in church activities
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
         </section>
@@ -172,11 +367,25 @@
           <h2 class="text-3xl font-bold mb-6">Contact Me</h2>
           <p class="mb-4">Let’s connect! You can reach me via email or social links below.</p>
           <div class="space-x-4">
-            <a href="mailto:youremail@example.com" class="text-blue-500 hover:underline">Email</a>
-            <a href="https://github.com/yourusername" class="text-blue-500 hover:underline"
+            <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=sawthomas2020@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-blue-500 hover:underline"
+              >Email</a
+            >
+            <a
+              href="https://github.com/SawThomasMMK"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-blue-500 hover:underline"
               >GitHub</a
             >
-            <a href="https://linkedin.com/in/yourusername" class="text-blue-500 hover:underline"
+            <a
+              href="https://www.linkedin.com/in/saw-thomas-maung-maung-kyaw-78608b279/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-blue-500 hover:underline"
               >LinkedIn</a
             >
           </div>
@@ -185,7 +394,7 @@
     </main>
 
     <footer class="py-6 text-center text-sm text-gray-500 dark:text-gray-400">
-      © 2025 Your Name. Built with Vue & Tailwind.
+      © 2025 Saw Thomas Maung Maung Kyaw. Built with Vue & Tailwind.
     </footer>
   </div>
 </template>
