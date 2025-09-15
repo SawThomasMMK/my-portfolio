@@ -199,7 +199,7 @@
                   description="This very site! Built with Vue 3 + TailwindCSS."
                   tech="Vue, Tailwind"
                   link="https://github.com/SawThomasMMK/my-portfolio.git"
-                  image="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1200&auto=format&fit=crop"
+                  image="/images/portfolioCover.png"
                   imageAlt="Screenshot of portfolio website"
                 />
               </div>
