@@ -363,29 +363,90 @@
       </FadeIn>
 
       <FadeIn>
-        <section id="contact" class="pt-16 pb-10 max-w-3xl mx-auto text-center">
-          <h2 class="text-3xl font-bold mb-6">Contact Me</h2>
-          <p class="mb-4">Let’s connect! You can reach me via email or social links below.</p>
-          <div class="space-x-4">
+        <section id="contact" class="pt-16 pb-8 max-w-3xl mx-auto text-center">
+          <h2 class="text-3xl font-bold mb-2">Contact Me</h2>
+          <p class="mb-8 text-gray-600 dark:text-gray-300">
+            I’d love to hear from you. Send a message and I’ll reply as soon as I can.
+          </p>
+
+          <FadeIn>
+            <form
+              action="https://formspree.io/f/mnnbyvnv"
+              method="POST"
+              class="text-left bg-white dark:bg-gray-800 p-6 md:p-8 rounded-xl shadow space-y-5"
+            >
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                  <label for="name" class="block text-sm font-medium mb-1">Your name</label>
+                  <input
+                    id="name"
+                    name="name"
+                    type="text"
+                    placeholder="Thomas"
+                    required
+                    class="w-full rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-900 px-4 py-2.5 text-gray-900 dark:text-gray-100 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-400"
+                  />
+                </div>
+                <div>
+                  <label for="email" class="block text-sm font-medium mb-1">Email address</label>
+                  <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    placeholder="you@example.com"
+                    required
+                    class="w-full rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-900 px-4 py-2.5 text-gray-900 dark:text-gray-100 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-400"
+                  />
+                </div>
+              </div>
+
+              <div>
+                <label for="message" class="block text-sm font-medium mb-1">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="6"
+                  placeholder="Tell me a bit about your project or question…"
+                  required
+                  class="w-full rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-900 px-4 py-2.5 text-gray-900 dark:text-gray-100 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-400"
+                ></textarea>
+              </div>
+
+              <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+                <label class="inline-flex items-center text-sm text-gray-600 dark:text-gray-300">
+                  <input type="checkbox" name="consent" required class="mr-2 accent-blue-500" />
+                  I consent to be contacted regarding my message.
+                </label>
+                <button
+                  type="submit"
+                  class="w-full sm:w-auto px-5 py-2.5 bg-blue-500 text-white rounded-lg hover:bg-blue-600 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-400"
+                >
+                  Send message
+                </button>
+              </div>
+
+              <input type="hidden" name="_subject" value="New message from portfolio" /></form
+          ></FadeIn>
+          <div class="space-x-4 pt-8 text-center">
             <a
               href="https://mail.google.com/mail/?view=cm&fs=1&to=sawthomas2020@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
-              class="text-blue-500 hover:underline"
+              class="text-blue-600 dark:text-blue-400 hover:underline"
               >Email</a
             >
             <a
               href="https://github.com/SawThomasMMK"
               target="_blank"
               rel="noopener noreferrer"
-              class="text-blue-500 hover:underline"
+              class="text-blue-600 dark:text-blue-400 hover:underline"
               >GitHub</a
             >
             <a
               href="https://www.linkedin.com/in/saw-thomas-maung-maung-kyaw-78608b279/"
               target="_blank"
               rel="noopener noreferrer"
-              class="text-blue-500 hover:underline"
+              class="text-blue-600 dark:text-blue-400 hover:underline"
               >LinkedIn</a
             >
           </div>
