@@ -5,7 +5,7 @@
     <main>
       <FadeIn>
         <section id="home" class="h-screen flex flex-col justify-center items-center text-center">
-          <h1 class="text-5xl font-bold">Hi, I'm <span class="text-blue-500">Thomas</span></h1>
+          <h1 class="text-5xl font-bold">Hello, I'm <span class="text-blue-500">Thomas</span></h1>
           <p class="mt-4 text-lg">
             <span class="block sm:inline">Aspiring Frontend Developer</span>
             <span class="hidden sm:inline"> | </span>
@@ -19,7 +19,7 @@
               View My Work
             </a>
             <a
-              href="https://drive.google.com/file/d/1RH3XacRQqegiuBCUrAOwjFm6l-eztvzJ/view?usp=sharing"
+              href="https://drive.google.com/file/d/1-yK8nBv_zieB7ovcz2QbEPr1Q4zBmFed/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               class="px-6 py-3 border border-blue-500 text-blue-500 rounded-xl hover:bg-blue-50 dark:hover:bg-gray-800 transition"
@@ -432,7 +432,7 @@
           </FadeIn>
           <div class="space-x-4 pt-8 text-center">
             <a
-              href="https://mail.google.com/mail/?view=cm&fs=1&to=sawthomas2020@gmail.com"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=6531503181@lamduan.mfu.ac.th"
               target="_blank"
               rel="noopener noreferrer"
               class="text-blue-600 dark:text-blue-400 hover:underline"
@@ -457,7 +457,7 @@
       </FadeIn>
     </main>
 
-    <footer class="py-6 text-center text-sm text-gray-500 dark:text-gray-400">
+    <footer class="pb-6 text-center text-sm text-gray-500 dark:text-gray-400">
       © 2025 Saw Thomas Maung Maung Kyaw. Built with Vue & Tailwind.
     </footer>
   </div>
