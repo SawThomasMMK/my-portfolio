@@ -4,7 +4,10 @@
 
     <main>
       <FadeIn>
-        <section id="home" class="h-screen flex flex-col justify-center items-center text-center">
+        <section
+          id="home"
+          class="h-screen flex flex-col justify-center items-center text-center px-4"
+        >
           <h1 class="text-5xl font-bold">Hello, I'm <span class="text-blue-500">Thomas</span></h1>
           <p class="mt-4 text-lg">
             <span class="block sm:inline">Aspiring Frontend Developer</span>
@@ -365,7 +368,7 @@
       <FadeIn>
         <section id="contact" class="pt-16 pb-8 max-w-3xl mx-auto text-center">
           <h2 class="text-3xl font-bold mb-2">Contact Me</h2>
-          <p class="mb-8 text-gray-600 dark:text-gray-300">
+          <p class="mb-8 px-4 text-gray-600 dark:text-gray-300">
             I’d love to hear from you. Send a message and I’ll reply as soon as I can.
           </p>
 
