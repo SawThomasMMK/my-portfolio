@@ -22,7 +22,7 @@
               View My Work
             </a>
             <a
-              href="https://drive.google.com/file/d/1-yK8nBv_zieB7ovcz2QbEPr1Q4zBmFed/view?usp=sharing"
+              href="https://drive.google.com/file/d/1sYxaOgrjM-bgOUSYzKBWV3PplispkiAF/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               class="px-6 py-3 border border-blue-500 text-blue-500 rounded-xl hover:bg-blue-50 dark:hover:bg-gray-800 transition"
